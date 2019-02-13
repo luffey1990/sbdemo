@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 public class HelloController {
-    @RequestMapping("/hello")
+    @RequestMapping("/helloWorld")
     public String helloWorld(){
         return "helloWorld";
     }
